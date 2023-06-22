@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.header-area{
+	background: transparent;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+}
+.menu{
+	text-align: right;
+
+}
+.menu a{
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+.menu a:hover{
+	color: #fec007;
+}
+.nav-bar-icon{
+	display: none; ;
+}
+.nav-bar-icon i{
+		color: #fff;
+		font-size: 20px;
+	}
+.banner{
+	background: url('images/banner.jpg');
+	background:  linear-gradient(to left ,rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url(images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;	
+}
+.title{
+	padding: 100px 0;
+	text-align: center;
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+.title p{
+	color: #fff;
+	font-size: 14px;
+}
+
+
+.search{
+	width: 60%;
+	height: 20vh;
+	
+	margin: auto;
+}
+.result{
+	width: 100%;
+}
+
+
+/* Cotnact */
+
+.contact{
+	margin: 50px 0;
+	background: #fff;
+}
+
+.our-form{
+	background: #2C3A47;
+	padding: 25px;
+}
+.our-form label{
+	color: #fff;
+}
+
+footer{
+	text-align: center;
+	background: #34495e;
+	padding: 20px 0;
+}
+footer p{
+	
+	color: #f1c40f;
+}
+
+
+
